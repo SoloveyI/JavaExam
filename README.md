@@ -12,7 +12,7 @@ The exam includes 3 tasks to be done: [Calculator](/tasks/Calculator.md), [Pyram
 ### Result ###
 
 * Author name : Ivan Solovev
-* Codeship : https://app.buddy.works/ivansolovevkms/javaexam/pipelines/pipeline/366232/badge.svg?token=e330dd8b0c97dd0f175be638e61d90852dd8fcd3eaf078763e5871659704a986
+* Codeship : [https://app.buddy.works/ivansolovevkms/javaexam/pipelines/pipeline/366232/badge.svg?token=e330dd8b0c97dd0f175be638e61d90852dd8fcd3eaf078763e5871659704a986]
 
 
 ### How to start?  ###
