@@ -29,4 +29,17 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>a0iizribw0mjs-artifactory-primary-0-releases</name>
+            <url>https://soloveyi.jfrog.io/artifactory/java_solov-libs-release</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>a0iizribw0mjs-artifactory-primary-0-snapshots</name>
+            <url>https://soloveyi.jfrog.io/artifactory/java_solov-libs-snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
