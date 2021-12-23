@@ -25,6 +25,9 @@ public class Subsequence {
 
         // Validation
         if (x==null||y==null) throw new IllegalArgumentException();
+        if (x.isEmpty()&y.isEmpty()) return true;
+          else if (x.isEmpty()&!y.isEmpty()) return true;
+            else if (!x.isEmpty()&y.isEmpty()) return false;
 
         // Checking if it is possible to get a sequence
         int index_of_equal=0;
