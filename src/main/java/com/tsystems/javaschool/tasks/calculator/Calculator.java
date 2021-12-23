@@ -20,6 +20,12 @@ public class Calculator {
             3) Find an expression inside the parentheses
             4) Write the expression inside the parentheses into a separate array
             5) Calculate the expression inside the separate array
+                - Write all the numbers one by one into one list and do the same with the operations ("+", "-", "*", "/")
+                - Then go through the list of operations and execute multiplication and division first, and then addition and subtraction.
+                - When execute an operation, take the number that matches the operation index and execute the operation on the next number in the list
+                - Write the result inside the position of the list of numbers according to the index of the operation
+                - Remove the next element from the list of numbers and operation  that was executed
+                - Continue going down the list of operations until all operations are executed
             6) Replace the expression in the initial array with the obtained value
             7) Repeat steps 3-5 until there are no expressions in parentheses in the initial array
             8) Calculate the expression in the initial array
