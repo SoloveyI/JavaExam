@@ -14,7 +14,14 @@ public class Subsequence {
      */
     @SuppressWarnings("rawtypes")
     public boolean find(List x, List y) {
-        // TODO: Implement the logic here
+        /* TODO:
+            1) Validation of input data
+            2) Checking the lists to be sure the problem condition is met:
+               - Take an element in the list "x" and go through the list "y", find an element matching the element in the list "x"
+               - Take the next element in the list "x" and repeat the previous step, but start checking from the element of the list  "y" found in the previous step
+               - Repeat the previous step until we reach the end of the list "x"
+         */
+
 
         // Validation
         if (x==null||y==null) throw new IllegalArgumentException();

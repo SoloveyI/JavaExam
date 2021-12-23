@@ -13,7 +13,17 @@ public class PyramidBuilder {
      * @throws {@link CannotBuildPyramidException} if the pyramid cannot be build with given input
      */
     public int[][] buildPyramid(List<Integer> inputNumbers) throws CannotBuildPyramidException {
-        // TODO : Implement your solution here
+        /* TODO :
+                1) Validation of input data
+                2) Checking the number of integers to see if the pyramid can be built
+                3) Sorting the array in descending order
+                4) Building the pyramid :
+                    - We start building the pyramid from the end
+                    - Write the numbers into the two-dimensional array line by line
+                    - Move from the end of the row to the beginning, and record the numbers at an interval of one column
+                    - With each additional row we increase the distance from the beginning and the end of the row where we write
+                    - Do this until we get to the first row
+         */
 
 
         // Input data validation

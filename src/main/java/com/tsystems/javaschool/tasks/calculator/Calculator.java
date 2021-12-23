@@ -14,11 +14,22 @@ public class Calculator {
      * @return string value containing result of evaluation or null if statement is invalid
      */
     public String evaluate(String statement) {
-        // TODO: Implement the logic here
+        /* TODO:
+            1) Write the input data into an initial array
+            2) Validation that the input data is correct
+            3) Find an expression inside the parentheses
+            4) Write the expression inside the parentheses into a separate array
+            5) Calculate the expression inside the separate array
+            6) Replace the expression in the initial array with the obtained value
+            7) Repeat steps 3-5 until there are no expressions in parentheses in the initial array
+            8) Calculate the expression in the initial array
+            9) Check results for correctness
+            10) Editing result for output according to the task
+        */
 
-
+// First validation that "statement" is not empty
         if (statement==null) return null;
-        if (statement.equals("")) return null;// First validation
+        if (statement.equals("")) return null;
 
 // Converting statement to ArrayList and Array
 
@@ -72,7 +83,7 @@ public class Calculator {
 
                     // If first number <0
                     if (i==0&&x=='-') {
-                        buffer=buffer+statement_array_list.get(j);
+                        buffer += statement_array_list.get(j);
                         continue;}
 
                     // if number <0
